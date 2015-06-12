@@ -42,8 +42,8 @@
     return @{
              Type :@{
                      @"close all" : [[NSNumber alloc] initWithBool:YES],
-                     @"UIViewController viewWillAppear" : [[NSNumber alloc] initWithBool:YES],
-                     @"UIViewController dealloc" : [[NSNumber alloc] initWithBool:YES]
+                     UIViewController_dealloc : [[NSNumber alloc] initWithBool:YES],
+                     UIViewController_viewWillApear : [[NSNumber alloc] initWithBool:YES]
                      },
              Class : @[],
              Contains : @""

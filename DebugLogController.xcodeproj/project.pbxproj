@@ -20,12 +20,11 @@
 		50B27E481B2B2BAE0030F8A3 /* EMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E441B2B2BAE0030F8A3 /* EMLogger.m */; };
 		50B27E5C1B2B2D7D0030F8A3 /* EMDebugVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E4C1B2B2D7D0030F8A3 /* EMDebugVC.m */; };
 		50B27E5D1B2B2D7D0030F8A3 /* EMDebugLogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E501B2B2D7D0030F8A3 /* EMDebugLogDataSource.m */; };
-		50B27E5E1B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E521B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.m */; };
-		50B27E5F1B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E541B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.m */; };
-		50B27E601B2B2D7D0030F8A3 /* EMDebugLogFilter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50B27E551B2B2D7D0030F8A3 /* EMDebugLogFilter.plist */; };
-		50B27E611B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E571B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.m */; };
-		50B27E621B2B2D7D0030F8A3 /* EMDebugLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E591B2B2D7D0030F8A3 /* EMDebugLogVC.m */; };
 		50B27E631B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E5B1B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.m */; };
+		50B27E6D1B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E661B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.m */; };
+		50B27E6E1B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E681B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.m */; };
+		50B27E6F1B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E6A1B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.m */; };
+		50B27E701B2B9FC50030F8A3 /* EMDebugLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B27E6C1B2B9FC50030F8A3 /* EMDebugLogVC.m */; };
 		A7BF2206FD303B16294BD842 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F350955072D58C302B5A22FE /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -61,23 +60,22 @@
 		50B27DE01B2B2B920030F8A3 /* UIView+EMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EMExtension.m"; sourceTree = "<group>"; };
 		50B27E411B2B2BAE0030F8A3 /* EMFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileUtil.h; sourceTree = "<group>"; };
 		50B27E421B2B2BAE0030F8A3 /* EMFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMFileUtil.m; sourceTree = "<group>"; };
-		50B27E431B2B2BAE0030F8A3 /* EMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLogger.h; sourceTree = "<group>"; };
-		50B27E441B2B2BAE0030F8A3 /* EMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLogger.m; sourceTree = "<group>"; };
+		50B27E431B2B2BAE0030F8A3 /* EMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EMLogger.h; path = ../../Utils/EMLogger.h; sourceTree = "<group>"; };
+		50B27E441B2B2BAE0030F8A3 /* EMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EMLogger.m; path = ../../Utils/EMLogger.m; sourceTree = "<group>"; };
 		50B27E4B1B2B2D7D0030F8A3 /* EMDebugVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugVC.h; sourceTree = "<group>"; };
 		50B27E4C1B2B2D7D0030F8A3 /* EMDebugVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugVC.m; sourceTree = "<group>"; };
 		50B27E4F1B2B2D7D0030F8A3 /* EMDebugLogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogDataSource.h; sourceTree = "<group>"; };
 		50B27E501B2B2D7D0030F8A3 /* EMDebugLogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogDataSource.m; sourceTree = "<group>"; };
-		50B27E511B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogCLassFilterVC.h; sourceTree = "<group>"; };
-		50B27E521B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogCLassFilterVC.m; sourceTree = "<group>"; };
-		50B27E531B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogContiansFilterVC.h; sourceTree = "<group>"; };
-		50B27E541B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogContiansFilterVC.m; sourceTree = "<group>"; };
-		50B27E551B2B2D7D0030F8A3 /* EMDebugLogFilter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EMDebugLogFilter.plist; sourceTree = "<group>"; };
-		50B27E561B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogTypeFilterVC.h; sourceTree = "<group>"; };
-		50B27E571B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogTypeFilterVC.m; sourceTree = "<group>"; };
-		50B27E581B2B2D7D0030F8A3 /* EMDebugLogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogVC.h; sourceTree = "<group>"; };
-		50B27E591B2B2D7D0030F8A3 /* EMDebugLogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogVC.m; sourceTree = "<group>"; };
 		50B27E5A1B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenDebugGestureRecognizer.h; sourceTree = "<group>"; };
 		50B27E5B1B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenDebugGestureRecognizer.m; sourceTree = "<group>"; };
+		50B27E651B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogCLassFilterVC.h; sourceTree = "<group>"; };
+		50B27E661B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogCLassFilterVC.m; sourceTree = "<group>"; };
+		50B27E671B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogContiansFilterVC.h; sourceTree = "<group>"; };
+		50B27E681B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogContiansFilterVC.m; sourceTree = "<group>"; };
+		50B27E691B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogTypeFilterVC.h; sourceTree = "<group>"; };
+		50B27E6A1B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogTypeFilterVC.m; sourceTree = "<group>"; };
+		50B27E6B1B2B9FC50030F8A3 /* EMDebugLogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDebugLogVC.h; sourceTree = "<group>"; };
+		50B27E6C1B2B9FC50030F8A3 /* EMDebugLogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDebugLogVC.m; sourceTree = "<group>"; };
 		BFB657C38A9C653720301D73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		F350955072D58C302B5A22FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -191,8 +189,6 @@
 			children = (
 				50B27E411B2B2BAE0030F8A3 /* EMFileUtil.h */,
 				50B27E421B2B2BAE0030F8A3 /* EMFileUtil.m */,
-				50B27E431B2B2BAE0030F8A3 /* EMLogger.h */,
-				50B27E441B2B2BAE0030F8A3 /* EMLogger.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -202,9 +198,9 @@
 			children = (
 				50B27E4B1B2B2D7D0030F8A3 /* EMDebugVC.h */,
 				50B27E4C1B2B2D7D0030F8A3 /* EMDebugVC.m */,
-				50B27E4D1B2B2D7D0030F8A3 /* EMLog */,
 				50B27E5A1B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.h */,
 				50B27E5B1B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.m */,
+				50B27E4D1B2B2D7D0030F8A3 /* EMLog */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -213,15 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				50B27E4E1B2B2D7D0030F8A3 /* Data */,
-				50B27E511B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.h */,
-				50B27E521B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.m */,
-				50B27E531B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.h */,
-				50B27E541B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.m */,
-				50B27E551B2B2D7D0030F8A3 /* EMDebugLogFilter.plist */,
-				50B27E561B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.h */,
-				50B27E571B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.m */,
-				50B27E581B2B2D7D0030F8A3 /* EMDebugLogVC.h */,
-				50B27E591B2B2D7D0030F8A3 /* EMDebugLogVC.m */,
+				50B27E641B2B9FC50030F8A3 /* VC */,
+				50B27E431B2B2BAE0030F8A3 /* EMLogger.h */,
+				50B27E441B2B2BAE0030F8A3 /* EMLogger.m */,
 			);
 			path = EMLog;
 			sourceTree = "<group>";
@@ -233,6 +223,21 @@
 				50B27E501B2B2D7D0030F8A3 /* EMDebugLogDataSource.m */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		50B27E641B2B9FC50030F8A3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				50B27E651B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.h */,
+				50B27E661B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.m */,
+				50B27E671B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.h */,
+				50B27E681B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.m */,
+				50B27E691B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.h */,
+				50B27E6A1B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.m */,
+				50B27E6B1B2B9FC50030F8A3 /* EMDebugLogVC.h */,
+				50B27E6C1B2B9FC50030F8A3 /* EMDebugLogVC.m */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 		E74CD8C6D0EEA8B725D4A051 /* Frameworks */ = {
@@ -326,7 +331,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				50B27DBA1B2B2A3C0030F8A3 /* Main.storyboard in Resources */,
-				50B27E601B2B2D7D0030F8A3 /* EMDebugLogFilter.plist in Resources */,
 				50B27DBF1B2B2A3C0030F8A3 /* LaunchScreen.xib in Resources */,
 				50B27DBC1B2B2A3C0030F8A3 /* Images.xcassets in Resources */,
 			);
@@ -379,20 +383,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50B27E6E1B2B9FC50030F8A3 /* EMDebugLogContiansFilterVC.m in Sources */,
 				50B27E481B2B2BAE0030F8A3 /* EMLogger.m in Sources */,
 				50B27DE21B2B2B920030F8A3 /* UIView+EMExtension.m in Sources */,
 				50B27E471B2B2BAE0030F8A3 /* EMFileUtil.m in Sources */,
-				50B27E5E1B2B2D7D0030F8A3 /* EMDebugLogCLassFilterVC.m in Sources */,
-				50B27E621B2B2D7D0030F8A3 /* EMDebugLogVC.m in Sources */,
 				50B27E5D1B2B2D7D0030F8A3 /* EMDebugLogDataSource.m in Sources */,
 				50B27E631B2B2D7D0030F8A3 /* OpenDebugGestureRecognizer.m in Sources */,
 				50B27DB71B2B2A3C0030F8A3 /* ViewController.m in Sources */,
+				50B27E701B2B9FC50030F8A3 /* EMDebugLogVC.m in Sources */,
+				50B27E6D1B2B9FC50030F8A3 /* EMDebugLogCLassFilterVC.m in Sources */,
+				50B27E6F1B2B9FC50030F8A3 /* EMDebugLogTypeFilterVC.m in Sources */,
 				50B27DB41B2B2A3C0030F8A3 /* AppDelegate.m in Sources */,
 				50B27E5C1B2B2D7D0030F8A3 /* EMDebugVC.m in Sources */,
 				50B27DB11B2B2A3C0030F8A3 /* main.m in Sources */,
 				50B27DE11B2B2B920030F8A3 /* NSObject+EMExtension.m in Sources */,
-				50B27E611B2B2D7D0030F8A3 /* EMDebugLogTypeFilterVC.m in Sources */,
-				50B27E5F1B2B2D7D0030F8A3 /* EMDebugLogContiansFilterVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
